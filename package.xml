@@ -75,6 +75,13 @@
             <outputDirectory>datax</outputDirectory>
         </fileSet>
         <fileSet>
+            <directory>kingbaseesreader/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
             <directory>rdbmsreader/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
@@ -267,6 +274,13 @@
             <outputDirectory>datax</outputDirectory>
         </fileSet>
         <fileSet>
+            <directory>kingbaseeswriter/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
             <directory>rdbmswriter/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
@@ -352,6 +366,13 @@
         </fileSet>
         <fileSet>
             <directory>cassandrawriter/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>clickhousewriter/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>

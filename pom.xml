@@ -22,7 +22,7 @@
         <commons-lang3-version>3.3.2</commons-lang3-version>
         <commons-configuration-version>1.10</commons-configuration-version>
         <commons-cli-version>1.2</commons-cli-version>
-        <fastjson-version>1.1.46.sec01</fastjson-version>
+        <fastjson-version>1.1.46.sec10</fastjson-version>
         <guava-version>16.0.1</guava-version>
         <diamond.version>3.7.2.1-SNAPSHOT</diamond.version>
 
@@ -50,6 +50,7 @@
         <module>drdsreader</module>
         <module>sqlserverreader</module>
         <module>postgresqlreader</module>
+        <module>kingbaseesreader</module>
         <module>oraclereader</module>
         <module>odpsreader</module>
         <module>otsreader</module>
@@ -66,6 +67,7 @@
         <module>tsdbreader</module>
         <module>opentsdbreader</module>
         <module>cassandrareader</module>
+        <module>gdbreader</module>
 
         <!-- writer -->
         <module>mysqlwriter</module>
@@ -79,6 +81,7 @@
         <module>oraclewriter</module>
         <module>sqlserverwriter</module>
         <module>postgresqlwriter</module>
+        <module>kingbaseeswriter</module>
         <module>osswriter</module>
         <module>mongodbwriter</module>
         <module>adswriter</module>
@@ -93,12 +96,13 @@
         <module>adbpgwriter</module>
         <module>gdbwriter</module>
         <module>cassandrawriter</module>
-        
+        <module>clickhousewriter</module>
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
         <module>plugin-unstructured-storage-util</module>
         <module>hbase20xsqlreader</module>
         <module>hbase20xsqlwriter</module>
+        <module>kuduwriter</module>
     </modules>
 
     <dependencyManagement>
@@ -176,6 +180,34 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Nexus aliyun</name>
+            <url>https://maven.aliyun.com/repository/central</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <name>Nexus aliyun</name>
+            <url>https://maven.aliyun.com/repository/central</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
     <build>
         <plugins>

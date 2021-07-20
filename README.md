@@ -3,12 +3,12 @@
 
 # DataX
 
-DataX 是阿里巴巴集团内被广泛使用的离线数据同步工具/平台，实现包括 MySQL、Oracle、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、DRDS 等各种异构数据源之间高效的数据同步功能。
+DataX 是阿里云 [DataWorks数据集成](https://www.aliyun.com/product/bigdata/ide) 的开源版本，在阿里巴巴集团内被广泛使用的离线数据同步工具/平台。DataX 实现了包括 MySQL、Oracle、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、Hologres、DRDS 等各种异构数据源之间高效的数据同步功能。
 
 # DataX 商业版本
 阿里云DataWorks数据集成是DataX团队在阿里云上的商业化产品，致力于提供复杂网络环境下、丰富的异构数据源之间高速稳定的数据移动能力，以及繁杂业务背景下的数据同步解决方案。目前已经支持云上近3000家客户，单日同步数据超过3万亿条。DataWorks数据集成目前支持离线50+种数据源，可以进行整库迁移、批量上云、增量同步、分库分表等各类同步解决方案。2020年更新实时同步能力，2020年更新实时同步能力，支持10+种数据源的读写任意组合。提供MySQL，Oracle等多种数据源到阿里云MaxCompute，Hologres等大数据引擎的一键全增量同步解决方案。
 
-https://www.aliyun.com/product/bigdata/ide
+商业版本参见：  https://www.aliyun.com/product/bigdata/ide
 
 
 # Features
@@ -64,7 +64,7 @@ DataX目前已经有了比较全面的插件体系，主流的RDBMS数据库、N
 
 # 阿里云DataWorks数据集成
 
-目前DataX的已有能力已经全部融和进阿里云的数据集成，并且比DataX更加高效、安全，同时数据集成具备DataX不具备的其它高级特性和功能。可以理解问数据集成是DataX的全面升级的商业化用版本，为企业可以提供稳定、可靠、安全的数据传输服务。于DataX相比，数据集成主要有以下几大突出特点：
+目前DataX的已有能力已经全部融和进阿里云的数据集成，并且比DataX更加高效、安全，同时数据集成具备DataX不具备的其它高级特性和功能。可以理解为数据集成是DataX的全面升级的商业化用版本，为企业可以提供稳定、可靠、安全的数据传输服务。与DataX相比，数据集成主要有以下几大突出特点：
 
 支持实时同步：
 
@@ -151,4 +151,7 @@ This software is free to use under the Apache License [Apache license](https://g
 
 - DataX开源用户交流群5
     - <img src="https://github.com/alibaba/DataX/blob/master/images/DataX%E5%BC%80%E6%BA%90%E7%94%A8%E6%88%B7%E4%BA%A4%E6%B5%81%E7%BE%A45.jpg" width="20%" height="20%">
+
+- DataX开源用户交流群6 
+    - <img src="https://user-images.githubusercontent.com/1905000/124073771-139cbd00-da75-11eb-9a3f-598cba145a76.png" width="20%" height="20%">
 
